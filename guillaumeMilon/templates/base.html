@@ -22,11 +22,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         {# Global stylesheets #}
-        <link rel="stylesheet" type="text/css" href="{% static 'css/guillaumeMilon.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="{% static 'css/lib/animate.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/lib/icomoon.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/lib/bootstrap.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/lib/style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/guillaumemilon.css' %}">
 
         {% block extra_css %}
             {# Override this in templates to add extra stylesheets #}
         {% endblock %}
+
+            {#  add some cutom js lib #}
+        <script src="{% static 'js/lib/modernizr-2.6.2.min.js' %}"></script>
+            {#  for IE9  #}
+        <script src="{% static 'js/lib/respond.min.js' %}"></script>
     </head>
 
     <body class="{% block body_class %}{% endblock %}">
@@ -35,10 +47,25 @@
         {% block content %}{% endblock %}
 
         {# Global javascript #}
-        <script type="text/javascript" src="{% static 'js/guillaumeMilon.js' %}"></script>
+        <!-- jQuery -->
+        <script src="{% static 'js/lib/jquery.min.js' %}"></script>
+        <!-- jQuery Easing -->
+        <script src="{% static 'js/lib/jquery.easing.1.3.js' %}"></script>
+        <!-- Bootstrap -->
+        <script src="{% static 'js/lib/bootstrap.min.js' %}"></script>
+        <!-- Waypoints -->
+        <script src="{% static 'js/lib/jquery.waypoints.min.js' %}"></script>
+        <!-- Stellar Parallax -->
+        <script src="{% static 'js/lib/jquery.stellar.min.js' %}"></script>
+        <!-- Easy PieChart -->
+        <script src="{% static 'js/lib/jquery.easypiechart.min.js' %}"></script>
+        <!-- Google Map -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+        <script src="{% static 'js/lib/google_map.js' %}"></script>
+        {#    mainjs from theme    #}
+        <script src="{% static 'js/lib/main.js' %}"></script>
 
-        {% block extra_js %}
-            {# Override this in templates to add extra javascript #}
-        {% endblock %}
+        <script type="text/javascript" src="{% static 'js/guillaumemilon.js' %}"></script>
+
     </body>
 </html>

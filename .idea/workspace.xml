@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f3f303c-4530-406b-b51e-e4fc64fd2ba1" name="Default" comment="" />
+    <list default="true" id="9f3f303c-4530-406b-b51e-e4fc64fd2ba1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/blog-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/blog-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/cover_bg_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/cover_bg_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/loc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/portfolio-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/portfolio-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/portfolio-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/portfolio-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/portfolio-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/portfolio-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/portfolio-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/portfolio-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/images/user-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/css/guillaumemilon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/css/lib/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/css/lib/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/css/lib/flexslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/css/lib/icomoon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/css/lib/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/guillaumemilon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/lib/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/lib/google_map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/lib/jquery.easing.1.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/lib/jquery.easypiechart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/lib/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/lib/jquery.stellar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/lib/jquery.waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/lib/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/lib/modernizr-2.6.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guillaumeMilon/static/js/lib/respond.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guillaumeMilon/static/css/guillaumeMilon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guillaumeMilon/static/js/guillaumeMilon.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guillaumeMilon/templates/base.html" afterPath="$PROJECT_DIR$/guillaumeMilon/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/templates/home/home_page.html" afterPath="$PROJECT_DIR$/home/templates/home/home_page.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,32 +69,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guillaumeMilon/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="-378">
+              <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guillaumeMilon/settings/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/home/home_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="182">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,13 +96,25 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>data</find>
+      <find>static</find>
+      <find>css</find>
+      <find>image</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/guillaumeMilon/settings/base.py" />
+        <option value="$PROJECT_DIR$/guillaumeMilon/static/css/guillaumeMilon.css" />
+        <option value="$PROJECT_DIR$/guillaumeMilon/static/js/guillaumeMilon.js" />
+        <option value="$PROJECT_DIR$/guillaumeMilon/static/js/guillaumemilon.js" />
+        <option value="$PROJECT_DIR$/guillaumeMilon/static/js/lib/main.js" />
+        <option value="$PROJECT_DIR$/home/templates/home/home_page.html" />
+        <option value="$PROJECT_DIR$/guillaumeMilon/templates/base.html" />
       </list>
     </option>
   </component>
@@ -83,11 +125,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-38" />
     <option name="y" value="27" />
-    <option name="width" value="1287" />
-    <option name="height" value="765" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -115,6 +157,30 @@
             <path>
               <item name="guillaumeMilon" type="b2602c69:ProjectViewProjectNode" />
               <item name="guillaumeMilon" type="462c0819:PsiDirectoryNode" />
+              <item name="guillaumeMilon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guillaumeMilon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guillaumeMilon" type="462c0819:PsiDirectoryNode" />
+              <item name="guillaumeMilon" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guillaumeMilon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guillaumeMilon" type="462c0819:PsiDirectoryNode" />
+              <item name="guillaumeMilon" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guillaumeMilon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guillaumeMilon" type="462c0819:PsiDirectoryNode" />
+              <item name="guillaumeMilon" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guillaumeMilon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guillaumeMilon" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -129,11 +195,6 @@
               <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guillaumeMilon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guillaumeMilon" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,8 +204,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.pyenv/versions/gm/bin/python3" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/profile" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/guillaumeMilon/static/css/lib" />
+      <recent name="$PROJECT_DIR$/guillaumeMilon/static" />
+      <recent name="$PROJECT_DIR$/guillaumeMilon/static/js/lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,15 +289,15 @@
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1440" height="873" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17385058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17744254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21839081" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21839081" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23342541" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43888888" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -277,18 +345,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guillaumeMilon/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guillaumeMilon/static/css/guillaumemilon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guillaumeMilon/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+        <state relative-caret-position="205">
+          <caret line="130" column="40" lean-forward="false" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guillaumeMilon/static/js/guillaumemilon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guillaumeMilon/static/js/lib/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guillaumeMilon/static/js/lib/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guillaumeMilon/static/css/lib/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/home/home_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="182">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guillaumeMilon/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding />
         </state>
       </provider>
