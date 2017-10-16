@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
     'modelcluster',
     'taggit',
+    'wagtailgmaps',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -144,4 +145,9 @@ WAGTAIL_SITE_NAME = "guillaumeMilon"
 
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
-BASE_URL = 'http://example.com'
+BASE_URL = 'https://guillaume-milon.fr'
+
+# Maps fields for wagtail
+WAGTAIL_ADDRESS_MAP_CENTER = 'La Rochelle, France'
+WAGTAIL_ADDRESS_MAP_ZOOM = 8
+WAGTAIL_ADDRESS_MAP_KEY = os.getenv('MAP_KEY')
