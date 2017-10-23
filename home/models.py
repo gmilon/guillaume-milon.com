@@ -189,7 +189,7 @@ class Services(Orderable):
     parent = ParentalKey(HomePage, related_name='services')
     title = models.CharField(max_length=250)
     logo = models.CharField(blank=True, choices=LOGOS_CLASSES, max_length=250)
-    text = RichTextField(blank=True)
+    text = models.TextField(blank=True)
 
 
 class Skill(Orderable):

@@ -136,19 +136,60 @@
 				</div>
 				<div class="row">
                     {% for service in page.services.all %}
-					    <div class="col-md-4 text-center">
-                            <div class="feature-left">
-                                <span class="icon">
-                                    <i class="{{ service.logo }}"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>{{ service.title }}</h3>
-                                    <div>{{ service.text|richtext }}</div>
-                                </div>
-                            </div>
-					    </div>
-				    {% endfor %}
+                    <div class="col-md-4 text-center">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="{{ service.logo }}"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>{{ service.title }}</h3>
+								<p>{{ service.text }}</p>
+							</div>
+						</div>
+
+					</div>
+                    {% endfor %}
                 </div>
+                <div class="row">
+					<div class="col-md-4 text-center">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-bargraph"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Developent</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-genius"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Marketing</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-chat"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Support</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
