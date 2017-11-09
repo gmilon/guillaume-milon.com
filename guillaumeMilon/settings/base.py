@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'modelcluster',
     'taggit',
     'wagtailgmaps',
+    'static_precompiler',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -156,4 +157,10 @@ WAGTAIL_ADDRESS_MAP_KEY = os.getenv('MAP_KEY')
 LANGUAGES = (
     ('en', _("English")),
     ('fr', _("French")),
+)
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'static_precompiler.finders.StaticPrecompilerFinder',
 )

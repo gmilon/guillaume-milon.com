@@ -1,3 +1,4 @@
 wagtail
 psycopg2
 wagtailgmaps
+django-static-precompiler

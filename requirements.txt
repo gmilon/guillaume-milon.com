@@ -8,9 +8,10 @@ beautifulsoup4==4.6.0     # via wagtail
 certifi==2017.11.5        # via requests
 chardet==3.0.4            # via requests
 django-modelcluster==3.1  # via wagtail
+django-static-precompiler==1.6
 django-taggit==0.22.1     # via wagtail
 django-treebeard==4.1.2   # via wagtail
-django==1.11.7            # via django-treebeard, wagtail
+django==1.11.7            # via django-static-precompiler, django-treebeard, wagtail
 djangorestframework==3.6.4  # via wagtail
 html5lib==0.999999999     # via wagtail
 idna==2.6                 # via requests

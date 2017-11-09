@@ -1,0 +1,10 @@
+h1 {
+  color: rgba(49, 112, 143, 0.85);
+}
+.switch-lang {
+  background-color: rgba(49, 112, 143, 0.85);
+}
+.switch-lang p {
+  color: white;
+  margin: 0;
+}

@@ -1,4 +1,4 @@
-{% load static wagtailuserbar %}
+{% load static wagtailuserbar compile_static %}
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -30,7 +30,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/lib/icomoon.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/lib/bootstrap.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/lib/style.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/guillaumemilon.css' %}">
+    <link rel="stylesheet" href="{% static "css/guillaumemilon.less"|compile %}">
 
     {% block extra_css %}
         {# Override this in templates to add extra stylesheets #}
@@ -43,13 +43,19 @@
 </head>
 
 <body class="{% block body_class %}{% endblock %}">
-{{  page.french_page }}
-{% if page.english_page and page.get_language != 'en' %}
-    <a href="{{ page.english_page.url }}">View in English</a>
-{% endif %}
-{% if page.french_page and page.get_language != 'fr' %}
-    <a href="{{ page.french_page.url }}">View in French</a>
-{% endif %}
+<div class="switch-lang">
+    {% if page.english_page and page.get_language != 'en' %}
+        <a href="{{ page.english_page.url }}">
+            <span class="flag-icon flag-icon-gb"></span>
+            <p>View in English</p>
+        </a>
+    {% elif page.french_page and page.get_language != 'fr' %}
+        <a href="{{ page.french_page.url }}">
+            <span class="flag-icon flag-icon-fr"></span>
+            <p>Version française</p>
+        </a>
+    {% endif %}
+</div>
 {% wagtailuserbar %}
 
 {% block content %}{% endblock %}
