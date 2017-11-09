@@ -8,6 +8,12 @@ from wagtail.wagtailcore.fields import RichTextField
 from wagtail.wagtailcore.models import Page, Orderable
 from wagtail.wagtailimages.edit_handlers import ImageChooserPanel
 from wagtailgmaps.edit_handlers import MapFieldPanel
+from wagtail.wagtailcore.models import Page
+
+from django.utils import translation
+from django.http import HttpResponseRedirect
+
+from home.views import TranslatablePageMixin
 
 LINKDN = 'icon-linkedin2'
 FB = 'icon-facebook2'
@@ -36,6 +42,15 @@ LOGOS_CLASSES = [
 ]
 
 
+class LanguageRedirectionPage(Page):
+
+    def serve(self, request):
+        # This will only return a language that is in the LANGUAGES Django setting
+        language = translation.get_language_from_request(request)
+
+        return HttpResponseRedirect(self.url + language + '/')
+
+
 class IntegerRangeField(models.IntegerField):
     def __init__(self, verbose_name=None, name=None, min_value=None, max_value=None, **kwargs):
         self.min_value, self.max_value = min_value, max_value
@@ -47,7 +62,7 @@ class IntegerRangeField(models.IntegerField):
         return super(IntegerRangeField, self).formfield(**defaults)
 
 
-class HomePage(Page):
+class HomePage(Page, TranslatablePageMixin):
 
     header_img = models.ForeignKey(
         'wagtailimages.Image',
@@ -88,6 +103,7 @@ class HomePage(Page):
     position = models.CharField(max_length=255, blank=True)
 
     content_panels = Page.content_panels + [
+        MultiFieldPanel(TranslatablePageMixin.panels, 'Language links'),
         MultiFieldPanel(
             [
                 InlinePanel('socials', label="Socials Media"),

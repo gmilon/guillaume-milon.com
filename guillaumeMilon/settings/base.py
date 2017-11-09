@@ -14,6 +14,7 @@ from __future__ import absolute_import, unicode_literals
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+from django.utils.translation import ugettext_lazy as _
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(PROJECT_DIR)
@@ -151,3 +152,8 @@ BASE_URL = 'https://guillaume-milon.fr'
 WAGTAIL_ADDRESS_MAP_CENTER = 'La Rochelle, France'
 WAGTAIL_ADDRESS_MAP_ZOOM = 8
 WAGTAIL_ADDRESS_MAP_KEY = os.getenv('MAP_KEY')
+
+LANGUAGES = (
+    ('en', _("English")),
+    ('fr', _("French")),
+)
