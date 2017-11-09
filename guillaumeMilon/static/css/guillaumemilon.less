@@ -1,14 +1,41 @@
+// colors
 @blue-aqua: rgba(49, 112, 143, 0.85);
+@grey-1:#999999;
 @white: white;
 
-h1 {
-  color: @blue-aqua;
-}
+// medias
+@phone-max-width: 990px;
 
 .switch-lang {
-  background-color: @blue-aqua;
-  p {
-    color: @white;
-    margin: 0;
+  position: fixed;
+  right: 0;
+  z-index: 99;
+  background-color: @grey-1;
+  text-align: center;
+  width: 200px;
+  border-radius: 15px;
+  margin: 25px 40px;
+  a {
+    p {
+      color: @white;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+  @media (max-width: @phone-max-width) {
+    background-color: @grey-1;
+    text-align: center;
+    width: 120px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    a {
+      p {
+        color: @white;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0;
+      }
+  }
   }
 }

@@ -1,10 +1,31 @@
-h1 {
-  color: rgba(49, 112, 143, 0.85);
-}
 .switch-lang {
-  background-color: rgba(49, 112, 143, 0.85);
+  position: fixed;
+  right: 0;
+  z-index: 99;
+  background-color: #999999;
+  text-align: center;
+  width: 200px;
+  border-radius: 15px;
+  margin: 25px 40px;
 }
-.switch-lang p {
+.switch-lang a p {
   color: white;
+  font-size: 18px;
+  font-weight: bold;
   margin: 0;
+}
+@media (max-width: 990px) {
+  .switch-lang {
+    background-color: #999999;
+    text-align: center;
+    width: 120px;
+    border-radius: 10px;
+    margin: 10px 15px;
+  }
+  .switch-lang a p {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+  }
 }

@@ -30,6 +30,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/lib/icomoon.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/lib/bootstrap.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/lib/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/lib/flag-icon.min.css' %}">
     <link rel="stylesheet" href="{% static "css/guillaumemilon.less"|compile %}">
 
     {% block extra_css %}
@@ -46,13 +47,17 @@
 <div class="switch-lang">
     {% if page.english_page and page.get_language != 'en' %}
         <a href="{{ page.english_page.url }}">
-            <span class="flag-icon flag-icon-gb"></span>
-            <p>View in English</p>
+            <p>
+                <span class="flag-icon flag-icon-gb"></span>
+                English
+            </p>
         </a>
     {% elif page.french_page and page.get_language != 'fr' %}
         <a href="{{ page.french_page.url }}">
-            <span class="flag-icon flag-icon-fr"></span>
-            <p>Version française</p>
+            <p>
+                <span class="flag-icon flag-icon-fr"></span>
+                Français
+            </p>
         </a>
     {% endif %}
 </div>
