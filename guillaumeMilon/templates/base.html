@@ -4,68 +4,76 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>
-            {% block title %}
-                {% if self.seo_title %}{{ self.seo_title }}{% else %}{{ self.title }}{% endif %}
-            {% endblock %}
-            {% block title_suffix %}
-                {% with self.get_site.site_name as site_name %}
-                    {% if site_name %}- {{ site_name }}{% endif %}
-                {% endwith %}
-            {% endblock %}
-        </title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        {# Global stylesheets #}
-        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-
-        <link rel="stylesheet" type="text/css" href="{% static 'css/lib/animate.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/lib/icomoon.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/lib/bootstrap.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/lib/style.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/guillaumemilon.css' %}">
-
-        {% block extra_css %}
-            {# Override this in templates to add extra stylesheets #}
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>
+        {% block title %}
+            {% if self.seo_title %}{{ self.seo_title }}{% else %}{{ self.title }}{% endif %}
         {% endblock %}
+        {% block title_suffix %}
+            {% with self.get_site.site_name as site_name %}
+                {% if site_name %}- {{ site_name }}{% endif %}
+            {% endwith %}
+        {% endblock %}
+    </title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-            {#  add some cutom js lib #}
-        <script src="{% static 'js/lib/modernizr-2.6.2.min.js' %}"></script>
-            {#  for IE9  #}
-        <script src="{% static 'js/lib/respond.min.js' %}"></script>
-    </head>
+    {# Global stylesheets #}
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 
-    <body class="{% block body_class %}{% endblock %}">
-        {% wagtailuserbar %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/lib/animate.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/lib/icomoon.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/lib/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/lib/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/guillaumemilon.css' %}">
 
-        {% block content %}{% endblock %}
+    {% block extra_css %}
+        {# Override this in templates to add extra stylesheets #}
+    {% endblock %}
 
-        {# Global javascript #}
-        <!-- jQuery -->
-        <script src="{% static 'js/lib/jquery.min.js' %}"></script>
-        <!-- jQuery Easing -->
-        <script src="{% static 'js/lib/jquery.easing.1.3.js' %}"></script>
-        <!-- Bootstrap -->
-        <script src="{% static 'js/lib/bootstrap.min.js' %}"></script>
-        <!-- Waypoints -->
-        <script src="{% static 'js/lib/jquery.waypoints.min.js' %}"></script>
-        <!-- Stellar Parallax -->
-        <script src="{% static 'js/lib/jquery.stellar.min.js' %}"></script>
-        <!-- Easy PieChart -->
-        <script src="{% static 'js/lib/jquery.easypiechart.min.js' %}"></script>
-        <!-- Google Map -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-        <script src="{% static 'js/lib/google_map.js' %}"></script>
-        {#    mainjs from theme    #}
-        <script src="{% static 'js/lib/main.js' %}"></script>
+    {#  add some cutom js lib #}
+    <script src="{% static 'js/lib/modernizr-2.6.2.min.js' %}"></script>
+    {#  for IE9  #}
+    <script src="{% static 'js/lib/respond.min.js' %}"></script>
+</head>
 
-        <script type="text/javascript" src="{% static 'js/guillaumemilon.js' %}"></script>
+<body class="{% block body_class %}{% endblock %}">
+{{  page.french_page }}
+{% if page.english_page and page.get_language != 'en' %}
+    <a href="{{ page.english_page.url }}">View in English</a>
+{% endif %}
+{% if page.french_page and page.get_language != 'fr' %}
+    <a href="{{ page.french_page.url }}">View in French</a>
+{% endif %}
+{% wagtailuserbar %}
 
-    </body>
+{% block content %}{% endblock %}
+
+{# Global javascript #}
+<!-- jQuery -->
+<script src="{% static 'js/lib/jquery.min.js' %}"></script>
+<!-- jQuery Easing -->
+<script src="{% static 'js/lib/jquery.easing.1.3.js' %}"></script>
+<!-- Bootstrap -->
+<script src="{% static 'js/lib/bootstrap.min.js' %}"></script>
+<!-- Waypoints -->
+<script src="{% static 'js/lib/jquery.waypoints.min.js' %}"></script>
+<!-- Stellar Parallax -->
+<script src="{% static 'js/lib/jquery.stellar.min.js' %}"></script>
+<!-- Easy PieChart -->
+<script src="{% static 'js/lib/jquery.easypiechart.min.js' %}"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+<script src="{% static 'js/lib/google_map.js' %}"></script>
+{#    mainjs from theme    #}
+<script src="{% static 'js/lib/main.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'js/guillaumemilon.js' %}"></script>
+
+</body>
 </html>
