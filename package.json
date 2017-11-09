@@ -1,0 +1,22 @@
+{
+  "name": "guillaumemilon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmilon/guillaume-milon.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmilon/guillaume-milon.com/issues"
+  },
+  "homepage": "https://github.com/gmilon/guillaume-milon.com#readme",
+  "dependencies": {
+    "less": "^2.7.3"
+  }
+}
