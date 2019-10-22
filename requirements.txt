@@ -15,8 +15,7 @@ django==1.11.7            # via django-static-precompiler, django-treebeard, wag
 djangorestframework==3.6.4  # via wagtail
 html5lib==0.999999999     # via wagtail
 idna==2.6                 # via requests
-olefile==0.44             # via pillow
-pillow==4.3.0             # via wagtail
+pillow==6.2.0             # via wagtail
 psycopg2==2.7.3.2
 pytz==2017.3              # via django, django-modelcluster
 requests==2.18.4          # via wagtail
