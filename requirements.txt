@@ -7,23 +7,25 @@
 beautifulsoup4==4.6.0     # via wagtail
 certifi==2017.11.5        # via requests
 chardet==3.0.4            # via requests
-django-modelcluster==3.1  # via wagtail
-django-static-precompiler==1.6
-django-taggit==0.22.1     # via wagtail
-django-treebeard==4.1.2   # via wagtail
-django==1.11.7            # via django-static-precompiler, django-treebeard, wagtail
-djangorestframework==3.6.4  # via wagtail
+django-modelcluster==5.0.1  # via wagtail
+django-static-precompiler==1.6  # via -r requirements.in
+django-taggit==1.2.0      # via wagtail
+django-treebeard==4.3.1   # via wagtail
+django==2.2.12            # via django-static-precompiler, django-taggit, django-treebeard, djangorestframework, wagtail
+djangorestframework==3.11.0  # via wagtail
+draftjs-exporter==2.1.7   # via wagtail
 html5lib==0.999999999     # via wagtail
 idna==2.6                 # via requests
 olefile==0.44             # via pillow
 pillow==4.3.0             # via wagtail
-psycopg2==2.7.3.2
-pytz==2017.3              # via django, django-modelcluster
+psycopg2==2.7.3.2         # via -r requirements.in
+pytz==2017.3              # via django, django-modelcluster, wagtail
 requests==2.18.4          # via wagtail
-six==1.11.0               # via html5lib
+six==1.11.0               # via html5lib, wagtail
+sqlparse==0.3.1           # via django
 unidecode==0.4.21         # via wagtail
 urllib3==1.22             # via requests
-wagtail==1.13
-wagtailgmaps==0.3
+wagtail==2.7.2            # via -r requirements.in
+wagtailgmaps==0.3         # via -r requirements.in
 webencodings==0.5.1       # via html5lib
-willow==1.0               # via wagtail
+willow==1.3               # via wagtail
